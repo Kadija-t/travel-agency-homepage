@@ -17,7 +17,13 @@ body {
     display: flex;
     justify-content: center;
 }
-
+a:hover{
+    color: blue;
+    text-decoration: overline;
+}
+nav a{
+    margin-left: 30%;;
+}
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -96,6 +102,7 @@ margin: 5px 10px 10px 3px;
 height: 240px;
 width: 240px;
 } 
+
 /* .card{
     
 }  */
