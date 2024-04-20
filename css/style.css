@@ -20,10 +20,13 @@ body {
 a:hover{
     color: blue;
     text-decoration: overline;
+    
 }
 nav a{
-    margin-left: 30%;;
+    margin-left: 30%;
+    align-items: center;
 }
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -83,20 +86,18 @@ a {
     
 
 }
-/**hébergements-cards-ajouts**/
-.hébergements {
+/**hebergements-cards-ajouts**/
+.hebergements {
     width: 32%;
 }
 
-.hébergements-title {
+.hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hébergements-cards .card {
-    /* margin-top: 33px;
-    margin-right: 15px; */
+.hebergements-cards .card {
 margin-bottom: 10px;
 margin: 5px 10px 10px 3px;
 height: 240px;
@@ -106,21 +107,21 @@ width: 240px;
 /* .card{
     
 }  */
-.hébergements-cards  {
+.hebergements-cards  {
     display: flex;
     margin-top: 33px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.hébergements-cards img {
+.hebergements-cards img {
     width: 100%;
     height: 136px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.hébergements-cards .card-content {
+.hebergements-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -129,16 +130,16 @@ width: 240px;
     box-sizing: border-box;
 }
 
-.hébergements-cards .card-title {
+.hebergements-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.hébergements-cards .card-subtitle {
+.hebergements-cards .card-subtitle {
     margin: 0;
 }
 
-.hébergements-cards .card-rating {
+.hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
 
