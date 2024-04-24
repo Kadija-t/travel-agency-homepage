@@ -12,6 +12,16 @@
 .fa-solid {
     color: var(--main-color);
 }
+#dot{
+    color: rgb(12, 9, 9);
+    background-color: #DEEBFF;
+}
+.dot{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: 20px;
+    color: #F2F2F2;
+}
 
 body {
     display: flex;
@@ -20,11 +30,9 @@ body {
 a:hover{
     color: blue;
     text-decoration: overline;
-    
 }
 nav a{
-    margin-left: 30%;
-    align-items: center;
+    margin: 2px 5px auto 500px;
 }
 
 .main-container {
@@ -38,12 +46,55 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
+.logo-booki{
+    height:8%;
+    width: 8%;
+}
 .section-title {
     margin: 0;
     font-size: 22px;
 }
+button{ 
+    font-weight: bold;
+    margin-left: 10px;
+    height:30px ;
+    width:110px ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065fc;
+    color: white;
 
+}
+.section-filtres{
+    height: 5%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-filtres a{
+    height: 55%;
+    width: 20%;
+    border-radius: 30px;
+    display: flex;
+    border: 0.01rem solid #D9D9D9;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-filtres a:hover{
+    background-color: #DEEBFF;
+    color: black;
+    font-weight: bold;
+}
+
+#info{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 0.01rem solid #D9D9D9;
+    padding: 10px 10px 10px 20px;
+
+}
 .card {
     background-color: white;
     border-radius: 20px;
@@ -71,24 +122,22 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
+    justify-content: space-between;
     box-sizing: border-box;
+    height: 70%;
+    
 }
 
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
-    
-
-}
-/**hebergements-cards-ajouts**/
-.hebergements {
-    width: 32%;
 }
 
 .hebergements-title {
@@ -100,8 +149,11 @@ a {
 .hebergements-cards .card {
 margin-bottom: 10px;
 margin: 5px 10px 10px 3px;
+height: 100%;
+width: 100%;
+justify-content: space-between;
 height: 240px;
-width: 240px;
+width: 240px; 
 } 
 
 /* .card{
