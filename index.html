@@ -17,10 +17,12 @@
 <body>
 <div class="main-container">
     <header>
-        <img class="logo-booki" src="./images/logo/Booki.png" alt="logo booki">
-        <nav>
-            <a href="#hebergements-cards">Hébergements</a> <a href="#">Activités </a>
-        </nav>
+        <ul>
+            <img class="logo-booki" src="./images/logo/Booki.png" alt="logo booki">
+            <li class="link-hebergement"><a href="#hebergements-cards">Hébergements</a></li>
+            <li><a href="#activities-cards">Activités</a></li>
+        </ul>
+        
     </header>
     <div class="title">
         <h1>Trouver votre hébergement pour des vacances de rêve</h1>
@@ -31,13 +33,15 @@
     </div>
         
     <section class="section-filtres">
-        <p><h3>Filtres</h3></p>
+        <p><h3>Filtres</h3>
         <a href="#"><i class="fa-solid fa-money-bill-wave"></i> Economique</a>
         <a href="#"><i class="fa-solid fa-person"></i> Familial</a>
         <a href="#"><i class="fa-solid fa-heart"></i> Romantique</a>
         <a href="#"><i class="fa-solid fa-fire"></i> Nos pépites</a>
+        </p>
     </section>
-    <p><i id="info" class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+    <p>
+        <i id="info" class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
     <div class="hebergements-and-populaires">
         <section class="hebergements">
             <div class="hébergements-title">
@@ -237,8 +241,81 @@
             </div>
         </section>
     </div>
+    <div>
+            <h2>Activités à Marseille</h2>
+        </div>
+    <div class="activities" id="activities-cards">
+        
+        <a href="#">
+            <article class="activities-card">
+                <img src="./images/activites/reno-laithienne.jpg"
+                alt="Image Vieux-port">
+                <div class="card-content">
+                    <div class="card-txt">
+                        <h3 class="card-title">Vieux-Port</h3>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a href="#">
+            <article class="activities-card">
+                <img src="./images/activites/paul-hermann.jpg"
+                alt="Image Fort de Pomègues">
+                <div class="card-content">
+                    <div class="card-txt">
+                        <h3 class="card-title">Fort de Pomègues</h3>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a href="#">
+            <article class="activities-card">
+                <img src="./images/activites/kilyan-sockalingum.jpg"
+                alt="Image Parc national des Calanques">
+                <div class="card-content">
+                    <div class="card-txt">
+                        <h3 class="card-title">Parc national des Calanques</h3>
+                    </div>
+                </div>
+            </article>
+        </a>
+        <a href="#">
+            <article class="activities-card">
+                <img src="./images/activites/florian-wehde.jpg"
+                alt="Image Notre-Dame-de-la-Garde">
+                <div class="card-content">
+                    <div class="card-txt">
+                        <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                    </div>
+                </div>
+            </article>
+        </a>
+    </div>
     <footer>
         
+            <div class="footer-stuff">
+                <ul>
+                    <li class="bold">A propos</h4></li>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales</li>
+                    <li>Données et confidentialités</li>
+                </ul>
+            </div>
+            <div class="footer-stuff">
+                <ul>
+                    <li class="bold">Nos hébergements</li>
+                    <li>Charte qualité</li>
+                    <li>Proposer votre hôtel</li>
+                </ul>
+            </div>
+            <div class="footer-stuff">
+                <ul>
+                    <li class="bold">Assistance</li>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+                
+            </div>
     </footer>
 </div>
 </body>
