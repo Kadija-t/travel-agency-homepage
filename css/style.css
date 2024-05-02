@@ -31,14 +31,15 @@ body {
     justify-content: center;
 }
 
-ul img{
-    justify-content: end;
+nav img{
     margin-right: 120px;
+    padding-top: 0px;
 }
 
-ul a:hover{
+nav a:hover{
     color: blue;
-    text-decoration: overline;
+    border-top: 2px solid #0065FC;
+    padding-top: 15px;
 }
 
 li
@@ -49,18 +50,16 @@ li
 
 header {
     width: 100%;
-    height:5% ;
-    padding: 0px 0px 2px -5px;
-}
+    height:4%;
+} 
 
 .link-hebergement{
     padding-left: 800px;
 }
-
 header ul{
     padding-left: 0px;
+    margin-top: 8px;
 }
-
 header li{
     padding-left: 80px;
 }
@@ -69,6 +68,7 @@ header li{
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    margin: 0px;
 }
 
 a {
@@ -76,16 +76,18 @@ a {
     text-decoration: none;
 }
 .logo-booki{
-    height:8%;
-    width: 8%;
+    height:10%;
+    width: 4%;
 }
 .section-title {
     margin: 0px;
     font-size: 22px;
 }
+
 .title{
     display:flex;
     margin-right:0px;
+    margin-top: 20px;
 }
 input{
     height:40px;
@@ -94,48 +96,42 @@ input{
     margin-bottom: 30px;
     border-style: none;
     border:0.1rem solid #F2F2F2;
-
 }
 
 button{ 
     font-weight: bold;
     height:40px ;
     width:110px ;
+    margin-left: -1px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #0065fc;
     color: white;
-    border-color:none;
     border-style: none;
 }
-
+.fa-filtres{
+    display:flex;
+    margin-top: 5px;
+}
 .section-filtres{
-    height: 4%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    width: 100%;
     font-weight: bold;
-    align-items: center;
-    text-align: justify;
+    display: flex;
+    margin-top: -10px;
 }
 
 .section-filtres a{
-    height: 55%;
-    width: 20%;
-    border-radius: 30px;
     display: flex;
+    border-radius: 30px;
     border: 0.15rem solid #D9D9D9;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     margin-left: 10px;
-    padding: 2px 60px 5px 15px;
+    padding: 15px 20px 8px 8px; 
 }
 .section-filtres i{
     margin-right: 10px;
-    text-align: end;
+    margin-left: 10px;
 }
+
 .section-filtres a:hover{
     background-color: #DEEBFF;
     color: black;
@@ -143,13 +139,15 @@ button{
 }
 
 #info{
-    width: 0.9%;
-    height: 0.9%;
-    border-radius: 50%;
+    width: 1%;
+    height: 1%;
+    border-radius: 60%;
     border: 0.01rem solid #D9D9D9;
-    margin-right: 20px;
-    padding: 3px 3px 3px 10px;
-}
+    margin-right: 10px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    padding: 5px 3px 5px 10px;
+} 
 
 .card {
     background-color: white;
@@ -178,23 +176,26 @@ button{
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-
+    width:100%;
+    height:35%;
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    background-color: var(--main-bg-color); 
     border-radius: 20px;
     padding: 30px;
-    justify-content: space-between;
     box-sizing: border-box;
-    height: 70%;
 }
 
 /****** Hebergements ***********/
 
 .hebergements {
-    width: 65%;
+    width: 65%; 
 }
+
+.hebergements-cards  {
+    display:block;
+} 
 
 .hebergements-title {
     display: flex;
@@ -203,21 +204,11 @@ button{
 }
 
 .hebergements-cards .card {
-    margin-bottom: 10px;
-    margin: 5px 10px 10px 3px;
-    height: 100%;
-    width: 100%;
-    justify-content: space-between;
-    height: 240px;
-    width: 240px; 
+    width: 30%;
+    flex-direction: row;
+    display: inline-block;
+    margin: 30px 9px 5px 5px;
 } 
-
-.hebergements-cards  {
-    display: flex;
-    margin-top: 33px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 .hebergements-cards img {
     width: 100%;
@@ -227,11 +218,7 @@ button{
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
     padding-left: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     box-sizing: border-box;
 }
 
@@ -247,37 +234,42 @@ button{
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
-
+.afficher-plus{
+    margin-top: 80px;
+    margin-bottom: 0px;
+} 
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    height: 100%;
+}
+.populaires-cards{
+    width:100%;
+    height:100%;
+}
+.populaires-cards .card{
+    display: flex;
+    margin-top: 25px;
+    width:100%; 
+    height: 26%;
 }
 
 .populaires-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
+    margin-top: 8px;
 }
 
 .populaires-cards img {
-    width: 33%;
-    height: 136px;
+    width: 50%; 
+    height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-    width: 67%;
     padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .populaires-cards .card-title {
@@ -293,45 +285,41 @@ button{
     margin-bottom: 5px;
 }
 
+
 /****** activities ***********/
 
-.activities {
-    width: 100%;
-    height: 30%;
-    margin-left: 0px;
+.activities { 
     display: flex;
-    
 }
 .activities a{
-    margin: 0 0px; 
     display: flex;
     color: inherit;
-    flex: 1 1 24%; 
+    flex: 1;
 }
 
 .activities-card {
-    width:100%;
-    height: 80%;
+    width:90%;
+    height:80%;
     margin-top: 10px;
-    margin-left: 0px;;
-    flex-direction: row; 
+    margin-left: 20px;
 }
 
 .activities-card img {
     height: 100%;
-    width: 80%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     object-fit: cover;
 }
 
 .activities-card .card-content {
-    width: 75%;
     height: 15%;
     background-color: white;
     display: flex;
     padding: 0 8px;
-    filter : drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1))
+    filter : drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1)); 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .activities-card .card-title {
@@ -339,16 +327,16 @@ button{
     margin-bottom: 4px;
 }
 
-footer{
+footer{ 
+    width: 100%;
+    height:8%;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height:10%;
     background-color: #F2F2F2;
 }
 .footer-stuff{
     width:100%;
-    
 }
 footer li{
     display:flex;
@@ -357,7 +345,6 @@ footer li{
 .bold{
     font-weight: bold;
 }
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
