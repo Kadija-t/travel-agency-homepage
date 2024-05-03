@@ -40,7 +40,7 @@ nav img{
 
 nav a:hover{
     color: blue;
-    border-top: 2px solid #0065FC;
+    border-top: 3px solid #0065FC;
     padding-top: 8px;
 }
 
@@ -371,24 +371,35 @@ footer li{
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) { 
+@media screen and (max-width: 1024px) and (min-width:768px){ 
 .link-hebergement {
-    padding-left: 500px;
-    }    
+    padding-left: 60%;
+}    
+
 .logo-booki{
     height:20%;
     width: 6%;
-    }
+}
+
 .button-magnifying-glass{
-        visibility: hidden;
-        display: none;
-        }
+    visibility: hidden;
+    display: none;
+}
 /***************filtres*****************/
 
 .section-filtres{
     display: block;
 }
-
+#info{
+    width: 1%;
+    height: 1%;
+    border-radius: 60%;
+    border: 0.01rem solid #D9D9D9;
+    margin-right: 10px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    padding: 5px 5px 5px 10px;
+} 
 nav a:hover{
     padding-top: 10px;
 }
@@ -407,9 +418,10 @@ nav a:hover{
     }
 .hebergements-cards{
     width:100%;
-    } 
+    }  
+
 .hebergements-cards .card {
-    width: 30%;
+    width: 29%;
     margin: 15px 10px 5px 0px;
     object-fit: cover;
     } 
@@ -429,7 +441,7 @@ nav a:hover{
     }
 
 .populaires-cards .card{
-    width: 94%;
+    width: 94%; 
     height:60%; 
 }
 .populaires-cards a {
