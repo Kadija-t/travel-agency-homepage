@@ -41,7 +41,7 @@ nav img{
 nav a:hover{
     color: blue;
     border-top: 2px solid #0065FC;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 li
@@ -115,15 +115,15 @@ button{
 }
 
 .button-magnifying-glass{
-        display:none;
-        font-weight: bold;
-        height:40px ;
-        width:50px ;
-        margin-left: 0px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        background-color: #0065fc;
-        color: white;
+    display:none;
+    font-weight: bold;
+    height:40px ;
+    width:50px ;
+    margin-left: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065fc;
+    color: white;
     }
 .fa-filtres{
     display:flex;
