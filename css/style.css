@@ -36,23 +36,23 @@ header {
     width: 100%;
     height:4%;
 } 
-nav{
+ nav{
     display: flex;
     
 }
-nav img{
+ nav img{
     width:5%; 
     height: 4%;
     margin-right: 1000px;
     padding-top: 30px;
 } 
 
-nav a {
+ nav a {
     margin-right: 60px;
     padding-top: 20px; }
 
 
-nav a:hover{
+ nav a:hover{
     color: blue;
     border-top: 2px solid #0065FC;
 }
@@ -250,7 +250,9 @@ button{
     margin-top: 80px;
     margin-bottom: 0px;
 } 
+
 /* Populaires */
+
 .populaires {
     width: 32%;
     height: 100%;
@@ -503,7 +505,7 @@ h3{
 .activities-card .card-txt {
 margin-top: 15px;
 }
-    /******footer******/
+    /*footer*/
 
 footer{
     height:15%;
@@ -513,7 +515,7 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) and (min-width: 320px) {
-    /****mobile****/
+    /*mobile*/
 
 .main-container{
     width: 100%;
@@ -527,7 +529,6 @@ header nav{
     width: 100%;
     border-bottom: 2px solid #D9D9D9;
     padding-bottom: 10px;
-    margin-left: 10px;
     text-decoration: none;
     justify-content: center;
 }
@@ -540,20 +541,21 @@ header nav img{
 }  
 
 header nav a {
-    width: 50%;
-    margin-top: 60px;
-    margin-right: 40px;
     padding: 10px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 10px;  
     text-decoration: none;
     justify-content: center;
-}
-header nav  a:hover{
-    width: 100%;
+} 
+
+header nav a:hover{
+    width: 50%; 
     color: blue;
     border-top: none;
     border-bottom: 2px solid #0065FC;
     padding-bottom: 10px;
+    text-decoration: none;
+
 }
 
 h1{
@@ -793,10 +795,6 @@ p {
 /* footer */
 footer{ 
     width: 100%;
-    height:10%;
-    margin-top: 10px;
-    margin-left: 0px ;
-    padding-left: 0px;
     display: block;
     flex-direction: column;
     background-color: #F2F2F2;
@@ -809,6 +807,5 @@ footer{
     font-weight: bold;
     padding-top: 10px;
 }
-
 }
 
