@@ -193,7 +193,6 @@ button{
 }
 
 .hebergements-and-populaires section {
-    
     padding: 30px;
     box-sizing: border-box;
 }
@@ -313,7 +312,7 @@ button{
 }
 
 .activities-card {
-    width:95%;
+    width:92%;
     height:80%;
 }
 
