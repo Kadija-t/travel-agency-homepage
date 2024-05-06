@@ -521,35 +521,57 @@ footer{
     padding: 0px;
     margin: 0px;
 }
-/* nav ul{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
 
-nav li a {
+header nav{
+    display: block;
     width: 100%;
-    padding: 10px;margin-left: 20px;
-    text-decoration: none;
-    justify-content: center;
-}
-nav li {
-    width: 50%;
-    padding: 10px;
-    margin-top: 60px;
-    text-decoration: none;
     border-bottom: 2px solid #D9D9D9;
-    justify-content: center;
-
-} */
-nav li a:hover{
-    width: 100%;
-    color: blue;
-    border-top: none;
-    border-bottom: 2px solid #0065FC;
     padding-bottom: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    justify-content: center;
 }
-nav li:hover{
+
+header nav img{
+    width:20%; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 120px;
+}  
+
+/* nav a {
+    margin-right: 60px;
+    
+
+        width: 50%;
+        
+        margin-top: 60px;
+        text-decoration: none;
+        border-bottom: 2px solid #D9D9D9;
+        justify-content: center;
+
+
+}
+nav a:hover{
+    color: blue;
+    border-bottom: 2px solid #0065FC;
+
+    width: 100%;
+    
+    border-top: none;
+    padding-bottom: 10px;
+} */
+
+header nav a {
+    width: 50%;
+    margin-top: 60px;
+    margin-right: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+header nav  a:hover{
     width: 100%;
     color: blue;
     border-top: none;
