@@ -365,15 +365,11 @@ footer li{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) and (min-width:768px){ 
-.link-hebergement {
-    padding-left: 60%;
-}    
-
-.logo-booki{
-    height:20%;
-    width: 6%;
+nav img{
+    margin-right: 450px;
+    width: 7%;
+    height: 6%;
 }
-
 .button-magnifying-glass{
     visibility: hidden;
     display: none;
