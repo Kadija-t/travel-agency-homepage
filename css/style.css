@@ -532,21 +532,35 @@ footer{
     }
 
 }
-
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px) and (min-width: 320px) {
     /*mobile*/
 
-html{
-    width: 100%;
-    max-width: 768px;
-    min-width:320px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body, html{
+    overflow-x: hidden;
+}
+html{ 
+    max-width: 768px;
+    min-width: 320px;
+    margin: 0%;
+    padding: 0%;
+}
+
 .main-container{
     width: 100%;
-    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box; 
+}
+h1, p, ul, li {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 nav {
@@ -563,6 +577,11 @@ nav img{
     margin-left: 120px;
 }  
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 nav a {
     display: flex;
     width: 50%;
@@ -570,7 +589,7 @@ nav a {
     margin-right: 40px;
     margin-left: 10px;   
     text-decoration: none;
-    justify-content: start;
+    justify-content: center;
 } 
 
 nav a:hover{
@@ -586,14 +605,15 @@ nav a, nav a:focus {
 }
 
 h1{
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     font-size: 25px;
-    margin-left: 3px ;
+    margin-left: 20px;
 }
 
 #dot{
-    width:6%;
-    height:30px;
+    width:10%;
+    height:41px;
     color: rgb(12, 9, 9);
     background-color: #f2f2f2;
     border-top-left-radius: 15px;
@@ -620,17 +640,14 @@ button{
     flex-wrap: wrap;
     font-weight: bold;
     margin-top: -10px;
-    margin-left: 3px;
-    margin-bottom: 50px;
+    margin-left: 2px;
 }
 .section-filtres h3{
-    margin-bottom: -10px ;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     margin-left: 20px;
 }
-h1 {
-    margin-left: 20px;
-    margin-top: 0px;
-}
+
 p {
     margin-left: 20px;
 }
@@ -638,7 +655,7 @@ p {
 .fa-filtres{
     flex-flow: row wrap;
     width: 100%;
-    height: 20%;
+    height: 35%;
     margin-top: 0px;
     margin-bottom: 20px;
     margin-right: 0px;
@@ -648,11 +665,11 @@ p {
 }
 
 .section-filtres a{
-    width: 40%;
+    width: 42%;
     height: 100%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding: 10px 5px 5px 8px;  
+    margin-top: 0px;
+    margin-bottom: 13px;
+    padding:10px 5px 10px 2px ;  
 }
 #info{
     width: 0.1%;
@@ -661,17 +678,18 @@ p {
     border: 0.01rem solid #D9D9D9;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top:50px ;
+    margin-bottom: 30px;
     padding: 5px 15px 6px 9px;
 } 
 .info-plus{
+    margin-top: 30px;
     display: flex; 
     align-items: flex-start;
 }
 .info-plus span{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: medium;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: justify; 
 }
 /* Hebergements And Populaires */
@@ -688,7 +706,7 @@ p {
 
 .hebergements-and-populaires section {
     border-radius: 20px;
-    padding: 30px;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 0px;
     margin-bottom: 0px;
@@ -703,7 +721,19 @@ p {
     background-color: white;
     
 }
+.hebergements-cards{
+    margin-left: 0px;
+}
+.hebergements-cards h3{
+    margin-top: 20px;
+}
 
+.heebergements-cards img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .hebergements-title {
     display: flex;
     justify-content: space-between;
@@ -713,7 +743,7 @@ p {
 .hebergements-cards .card {
     display: block;
     width: 100%;
-    margin: 30px 9px 5px 5px;
+    margin: 30px 9px 5px 0px;
 } 
 
 /* Populaires */
@@ -800,12 +830,12 @@ p {
 }
 .activites-a-marseille{
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     margin-left: 20px;
 } 
 .activities-card .card-content {
     height: 25%;
-    width: 95%;
+    width: 100%;
     background-color: white;
     display: flex;
     padding: 0 8px;
@@ -825,9 +855,11 @@ footer{
     display: block;
     flex-direction: column;
     background-color: #F2F2F2;
+    margin-top: 0px;
 }
 .footer-stuff{
     width:100%;
+    margin-left: 20px;
 }
 
 .bold{
