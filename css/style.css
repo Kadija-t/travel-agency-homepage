@@ -2,7 +2,7 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
-html{
+html {
     max-width: 1440px;
     min-width:1023.9px;
 }
@@ -15,7 +15,8 @@ html{
 .fa-solid {
     color: var(--main-color);
 }
-#dot{
+
+#dot {
     width:2%;
     height:30px;
     color: rgb(12, 9, 9);
@@ -24,27 +25,31 @@ html{
     border-bottom-left-radius: 15px;
     
 }
-.title i{
+
+.title i {
     margin-left: 10px;
     padding-left: 15px ;
     padding-top: 10px;
 }
+
 body {
     display: flex;
     justify-content: center;
     margin: 0px 0px;
     padding:0px 0px; 
 }
+
 header {
     width: 100%;
     height:4%;
 } 
 
-nav{
+nav {
     display: flex;
     
 }
-nav img{
+
+nav img {
     width:5%; 
     height: 4%;
     margin-right: 1000px;
@@ -55,19 +60,20 @@ nav a {
     margin-right: 60px;
     padding-top: 20px; }
 
-.links{
+.links {
     display: flex;
 }
 
-nav a:hover{
+nav a:hover {
     color: blue;
     border-top: 2px solid #0065FC;
 }
 
-h1{
+h1 {
     margin-top: 30px;
     font-size: 20px;
 }
+
 .main-container {
     width: 100%;
     padding: 0 50px;
@@ -85,13 +91,13 @@ a {
     font-size: 22px;
 }
 
-.title{
+.title {
     display:flex;
     margin-right:0px;
     margin-top: 20px;
 }
 
-input{
+input {
     height:40px;
     width:200px;
     margin-right:0px;
@@ -100,7 +106,7 @@ input{
     border:0.1rem solid #F2F2F2;
 }
 
-button{ 
+button { 
     visibility: visible;
     font-weight: bold;
     height:40px ;
@@ -113,7 +119,7 @@ button{
     border-style: none;
 }
 
-.button-magnifying-glass{
+.button-magnifying-glass {
     display:none;
     font-weight: bold;
     height:40px ;
@@ -125,37 +131,39 @@ button{
     color: white;
     }
 
-.fa-filtres{
+.fa-filtres {
     display:flex;
     margin-top: 5px;
-}
-.section-filtres{
+} 
+
+.section-filtres {
     height: 3%;
     font-weight: bold;
     display: flex;
     margin-top: -10px;
 }
 
-.section-filtres a{
+.section-filtres a {
     display: flex;
     border-radius: 30px;
     border: 0.15rem solid #D9D9D9;
     margin-top: 6px;
     margin-left: 10px;
     padding: 10px 20px 7px 6px; 
-}
-.section-filtres i{
+} 
+
+.section-filtres i {
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.section-filtres a:hover{
+.section-filtres a:hover {
     background-color: #DEEBFF;
     color: black;
     font-weight: bold;
 }
 
-#info{
+#info {
     width: 1%;
     height: 1%;
     border-radius: 60%;
@@ -254,7 +262,7 @@ button{
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
-.activites-a-marseille{
+.activites-a-marseille {
     margin-top: 80px;
     margin-bottom: 0px;
 } 
@@ -267,11 +275,12 @@ button{
     background-color: var(--main-bg-color); 
     border-radius: 20px;
 }
-.populaires-cards{
+
+.populaires-cards {
     width:100%;
     height:100%;
 }
-.populaires-cards .card{
+.populaires-cards .card {
     display: flex;
     margin-top: 25px;
     width:100%; 
@@ -350,22 +359,23 @@ button{
 }
 
 /*footer*/
-footer{ 
+footer { 
     width: 100%;
     height:10%;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
-}
-.footer-stuff{
+} 
+.footer-stuff {
     width:100%;
-}
-footer li{
+} 
+
+footer li {
     display:flex;
     padding: 5px 5px 5px 5px;
 }
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -373,33 +383,36 @@ footer li{
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /*Media queries */
-/* Medium devices (tablets, less/equal than 1023px) */
+/* Medium devices (tablets, less/equal than 1024px) */
 
 @media(max-width: 1024px) and (min-width: 768px) {
-html{
+html {
     max-width: 1024px;
     min-width:768px;
 }
 
-nav img{
-    margin-right: 550px;
+nav img {
+    margin-right: 65%;
     width: 7%;
     height: 6%;
 }
-.button-magnifying-glass{
+
+.button-magnifying-glass {
     visibility: hidden;
     display: none;
 }
-/*filtres**/
 
-.section-filtres{
+/*filtres*/
+
+.section-filtres {
     display: block;
 }
 
-.fa-filtres{
+.fa-filtres {
     margin-bottom: 30px;
 }
-#info{
+
+#info {
     width: 1%;
     height: 1%;
     border-radius: 60%;
@@ -410,18 +423,16 @@ nav img{
     padding: 5px 5px 5px 10px;
 }
 
-.info-plus{
+.info-plus {
     margin-top: 30px;
 }
-nav a:hover{
-    padding-top: 10px;
-}
+
 /*hebergements*/
+
 .hebergements-and-populaires {
     display: block;
     width:100%;
-    
-    }
+}
 
 .hebergements {
     width: 100%;
@@ -430,25 +441,26 @@ nav a:hover{
     background-color: var(--main-bg-color); 
     border-radius: 20px;
     padding: 0px;
-    }
-.hebergements-cards{
+}
+
+.hebergements-cards {
     width:100%;
     margin-left: 5px;
     gap: 0px;
-    }  
+}  
 
 .hebergements-cards .card {
     width: 28%;
     height: 30%;
     gap: 15px 20px 5px 0px;
     object-fit: cover;
-    } 
+} 
 
 .hebergements-cards .card-title {
-    font-size: 15px;
+    font-size: 14px;
 }
 
-h3{
+h3 {
     margin-bottom: 0px;
 }
 
@@ -492,7 +504,7 @@ h3{
     margin-bottom: 2px;
 }
 
-.populaires-cards .card-rating{
+.populaires-cards .card-rating {
     position: absolute; 
     bottom:10px;
 }
@@ -505,14 +517,15 @@ h3{
 
 .activities{
     margin-top: 30px;
-    }
+}
 .activities-card {
     width:85%;
     height: 55%;
     margin-top: 10px;
     margin-left: 5px;;
     flex-direction: row; 
-    }
+}
+
 .activities-card .card-content {
     width: 92%;
     height: 40%;
@@ -527,11 +540,11 @@ h3{
 }
     /*footer*/
 
-footer{
+footer {
     height:15%;
-    }
-
 }
+
+
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px) and (min-width: 320px) {
     /*mobile*/
@@ -542,10 +555,11 @@ footer{
     box-sizing: border-box;
 }
 
-body, html{
+body, html {
     overflow-x: hidden;
 }
-html{ 
+
+html { 
     max-width: 768px;
     min-width: 320px;
     margin: 0%;
@@ -558,6 +572,7 @@ html{
     margin: 0px;
     box-sizing: border-box; 
 }
+
 h1, p, ul, li {
     margin-left: 0;
     margin-right: 0;
@@ -568,7 +583,7 @@ nav {
     width: 100%; 
     border-bottom: 2px solid #D9D9D9;
     padding-bottom: 0px;
-    text-decoration: none; 
+    border-top: transparent;
 }
 nav img{
     width:20%; 
@@ -592,11 +607,11 @@ nav a {
     justify-content: center;
 } 
 
-nav a:hover{
+nav a:hover {
     color: blue;
-    border-top: none;
+    border-top: transparent;
     border-bottom: 2px solid #0065FC;
-    padding-bottom: 22x;
+    padding-bottom: 10px;
     margin: 0px;
 
 }
@@ -604,14 +619,14 @@ nav a, nav a:focus {
     outline: none; 
 }
 
-h1{
+h1 {
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 25px;
     margin-left: 20px;
 }
 
-#dot{
+#dot {
     width:10%;
     height:41px;
     color: rgb(12, 9, 9);
@@ -621,20 +636,21 @@ h1{
     
 }
 
-button{ 
+button { 
     display: none;
 }
-.button-magnifying-glass{
+
+.button-magnifying-glass {
     visibility: visible;
     display: block;
 }
-.button-magnifying-glass i{
+.button-magnifying-glass i {
     color: white;
     margin-left: 3px;
     margin-top: 3px;
 }
 
-.section-filtres{
+.section-filtres {
     width: 100%;
     height: 3%;
     flex-wrap: wrap;
@@ -642,7 +658,8 @@ button{
     margin-top: -10px;
     margin-left: 0px;
 }
-.section-filtres h3{
+
+.section-filtres h3 {
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 20px;
@@ -652,7 +669,7 @@ p {
     margin-left: 20px;
 }
 
-.fa-filtres{
+.fa-filtres {
     flex-flow: row wrap;
     width: 100%;
     height: 40%;
@@ -661,17 +678,17 @@ p {
     margin-right: 0px;
     padding-right:0px;
     gap: 1%;
-    
 }
 
-.section-filtres a{
+.section-filtres a {
     width: 45%;
     height: 100%;
     margin-top: 0px;
     margin-bottom: 13px;
     padding:10px 1px 10px 1px ;  
 }
-#info{
+
+#info {
     width: 0.1%;
     height: 0.1%;
     border-radius: 80%;
@@ -681,12 +698,14 @@ p {
     margin-bottom: 30px;
     padding: 5px 15px 6px 9px;
 } 
-.info-plus{
+
+.info-plus { 
     margin-top: 30px;
     display: flex; 
     align-items: flex-start;
 }
-.info-plus span{
+
+.info-plus span {
     margin-top: 20px;
     font-size: medium;
     margin-bottom: 30px;
@@ -719,11 +738,12 @@ p {
     margin-top: 0px;
     display: block;
     background-color: white;
-    
 }
+
 .hebergements-cards{
     margin-left: 0px;
 }
+
 .hebergements-cards h3{
     margin-top: 20px;
 }
@@ -754,6 +774,7 @@ p {
     width:100%;
     height:60%;
 }
+
 .populaires-cards .card{
     display: flex;
     margin-top: 25px;
@@ -788,11 +809,10 @@ p {
     margin: 0px;
 }
 
-.populaires-cards .card-rating{
+.populaires-cards .card-rating {
     position: absolute; 
     bottom:10px;
 }
-
 
 /* activities */
 
@@ -803,11 +823,12 @@ p {
     margin-bottom: 0px;
     
 }
-.activities a{
+.activities a {
     width:100%;
     height:auto;
     color: inherit;
 }
+
 .activities-card {
     width: 100%; 
     height: auto;
@@ -817,16 +838,18 @@ p {
     padding-right: 10px;
 }
 
-.activities-card img{
+.activities-card img {
     height: 65%;
     max-height: 200px;
     object-fit: cover;
 }
-.activites-a-marseille{
+
+.activites-a-marseille {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 } 
+
 .activities-card .card-content {
     height: 25%;
     width: 100%;
@@ -844,21 +867,23 @@ p {
 } 
 
 /* footer */
-footer{ 
+footer { 
     width: 100%;
     display: block;
     flex-direction: column;
     background-color: #F2F2F2;
     margin-top: 0px;
 }
-.footer-stuff{
+
+.footer-stuff {
     width:100%;
     margin-left: 20px;
 }
 
-.bold{
+.bold {
     font-weight: bold;
     padding-top: 10px;
 }
 }
 
+}
