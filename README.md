@@ -1,7 +1,7 @@
 
 # Travel agency - Booki
 
-[![English](https://img.shields.io/badge/lang-English-blue.svg)](#english) | [![Français](https://img.shields.io/badge/lang-Français-blue.svg)](#french) 🇫🇷
+[![English](https://img.shields.io/badge/lang-English-blue.svg)](#english) | [![Français](https://img.shields.io/badge/lang-Français-blue.svg)](#french)
 
 ## English 🇬🇧 ⬇️
 
